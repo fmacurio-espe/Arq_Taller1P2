@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  *
  * @author AC
  */
-public class leeEscribeTxt extends Thread {            
+public class txtAMongo extends Thread {            
 
     private String rutaArchivo;
     private String linea;

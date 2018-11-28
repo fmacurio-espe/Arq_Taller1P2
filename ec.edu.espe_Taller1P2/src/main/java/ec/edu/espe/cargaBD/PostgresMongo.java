@@ -21,7 +21,7 @@ import org.mongodb.morphia.Morphia;
  *
  * @author Alejandro Torres
  */
-public class mysqlMongo {
+public class PostgresMongo {
 
     private static Connection conn;
     private static final String driver = "org.postgresql.Driver";
