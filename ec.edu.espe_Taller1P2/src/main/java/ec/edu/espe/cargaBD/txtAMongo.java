@@ -51,7 +51,7 @@ public class txtAMongo extends Thread {
             Connection con = DriverManager.getConnection(servidor, usuarioDB, passwordDB);
             Statement stat = con.createStatement();
             //Lectura del archivo
-            this.rutaArchivo = "C://tmp//data.txt";
+            this.rutaArchivo = "C://tmp//registroCivil100.txt";
             FileReader fr = new FileReader(rutaArchivo);
             BufferedReader entradaArchivo = new BufferedReader(fr);
 
